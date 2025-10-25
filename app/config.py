@@ -7,3 +7,6 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 MONGODB_URL = os.getenv("MONGODB_URL", "mongodb://localhost:27017")
 FAISS_INDEX_PATH = "./faiss_index"
+
+# Path to your uploads folder
+UPLOADS_PATH = "./uploads"
